@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract_11.sol": "MyContract_11"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract_11.sol": {
+			"keccak256": "0x3fede9a28f114df79efd2d82ac31057780e6bc4353ae67baacb13fde65dd27ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://576458a8bcc307aa05eb9a6c3e9275e265a8f0ed811c02ef25290628d34d4af3",
+				"dweb:/ipfs/QmQim3g2j8wsqE4zqoSizaFWq38S4fjUikaaVM3Esr6zPA"
+			]
+		},
+		"SafeMath_Library.sol": {
+			"keccak256": "0x478cc76b6f924b6acb936ee9a41655757f29c3e1966215b7f91af8ea450bc7ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad7a0c6c6f0ada75644bb847ad9fd18d7f2196b8cbff4482fa359ec2612efa44",
+				"dweb:/ipfs/Qme9ZKD7y42xfQb6gi3kaeTkuDdUy966RjYgNELy4extc5"
+			]
+		}
+	},
+	"version": 1
+}
